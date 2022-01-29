@@ -1,0 +1,46 @@
+body{
+    display: block;
+    height:100vh; /* 100% window height*/
+    float:right;
+    --bgc:white; /*#657599*/
+    background: var(--bgc);
+}
+.sec{
+    float: right;
+    width: 65%;
+}
+h4{
+    font-size: smaller;
+    text-align: end;
+}
+h2{
+    font-size: large;
+    line-height: calc(font-size*2);
+    margin: -30px 10% 40px 10%;
+}
+h1 {
+    margin: 100;
+    padding: 0;
+    border: 0;
+    font-size: 300%;
+    font: Arial;
+}
+  
+p {
+    text-align: left;
+    padding: 0.1cm;
+    font-size: 100%;
+    font: Times;
+}
+  
+footer {
+    clear:both;
+    display: block;
+    text-align: center;
+    padding: 25px 10% 0 10%;
+    border-top: 1px solid #648880;
+}
+
+
+  
+  
